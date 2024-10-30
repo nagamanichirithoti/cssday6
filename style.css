@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    color: blue;
+    margin: 10px;
+}
+.product{
+    background-color: lightblue;
+    margin: 20px 50px;
+    padding: 20px;
+   
+}
+li{
+    margin:10px;
+    padding: 5px;
+    color: white;
+}
+[data-available="true"]{
+    background-color: green;
+}
+[data-available="false"]{
+    background-color: red;
+}
+[data-price="high"]{
+    font-weight: bold;
+}
+[data-category="Electronics"]{
+    list-style-type: upper-alpha;
+}
+[data-price="low"]{
+    list-style-type: decimal;
+}
